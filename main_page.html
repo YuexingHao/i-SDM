@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<link href='https://fonts.googleapis.com/css?family=Overpass' rel='stylesheet'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body id="mainbody">
+
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="main_page.html">Home</a>
+  <a href="case_one.html">Case 1</a>
+  <a href="case_two.html">Case 2</a>
+</div>
+
+  <div class="topnav">
+  <a><span onclick="openNav()">&#9776; Menu</span></a>
+  <a class="active" href="main_page.html">Home</a>
+  <a href="case_one.html">Case 1</a>
+  <a href="case_two.html">Case 2</a>
+</div>
+
+<div class="mainheader">
+    <h1 style="font-size: 165%;">i-SDM - an AI-Enhanced Patient-Centered Clinical Shared Decision-Making</h1>
+  <h1 style="font-size: 115%;">Home Page</h1>
+</div>
+<br>
+
+<div class="mainbody">
+  <nav am-layout="horizontal"><center>
+  <h4>
+  Welcome to the web app for the i-SDM! <br><br> In this web page, we create a prototype for cancer patients to provide Artificial Intelligence (AI) - powered support <br> for their shared decision-making progress, under the guidance of clinicians or other healthcare professionals.
+  </h4>
+  </center>
+  </nav>
+
+<h3><center>Field 1: Breast Cancer</center></h3>
+
+<!-- Case One: Trigger the modal with a button -->
+  <button type="button" class="button button1" data-toggle="modal" data-target="#myModal1">Case One<p style="font-size: 45%;text-align: center;">SX: Cognitive impairment, headache, and memory loss</p></button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal1" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title"><center>Case One Details</center></h4>
+        </div>
+        <div class="modal-body">
+          <p style="text-align: left;font-size: 120%;">A 64-year-old woman was admitted to this hospital with cognitive impairment, headache, and memory loss. The patient had been well until 6 weeks before admission, when respiratory symptoms developed. </p>
+        </div>
+        <div class="modal-footer">
+          <a href="case_one.html"><button type="button" class="btn btn-default" >Proceed</button></a>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<h3><center>Field 2: Prostate Cancer</center></h3>
+
+<center>
+
+    <!-- Case Two: Trigger the modal with a button -->
+    <button type="button" class="button button1" data-toggle="modal" data-target="#myModal2">Case Two<p style="font-size: 45%;text-align: center;">SX: Motor Neuron Disease</p></button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal2" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title"><center>Case Two Details</center></h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <p style="text-align: left;font-size: 120%;">A 67-year-old man was evaluated in the sleep clinic at this hospital because of odd behaviors during sleep, daytime sleepiness, and apnea detected on a home sleep study. </p>
+                </div>
+                <div class="modal-footer">
+                    <a href="case_two.html"><button type="button" class="btn btn-default">Proceed</button></a>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <center>
+    
+
+</div>
+<script type = "text/javascript" src="function.js">
+
+</script>
+<br></br>
+<br></br>
+
+</body>
+
+
+</html>
